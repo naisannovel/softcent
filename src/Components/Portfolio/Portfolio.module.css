@@ -1,0 +1,51 @@
+.portfolio__title_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.next__prev_container{
+    display: flex;
+    column-gap: 2rem;
+}
+
+.next__prev_container span{
+    border: 1px solid var(--quaternary-color);
+    font-size: 2rem;
+    width: 4.6rem;
+    height: 4.6rem;
+    border-radius: 50%;
+    padding: 2rem;
+    position: relative;
+    cursor: pointer;
+}
+
+.next__prev_container span svg{
+    position: absolute;
+    inset: 0;
+    margin: auto;
+}
+
+.swiperSlide__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2.8rem;
+}
+
+.swiperSlide__container img{
+    border-radius: 1.2rem;
+}
+
+.swiperSlide__container p{
+    font-weight: 500;
+    font-size: 2.6rem;
+    line-height: 3.6rem;
+    text-align: center;
+}
+
+.all__portfolio_btn{
+    text-align: center;
+    margin-top: 8rem;
+}

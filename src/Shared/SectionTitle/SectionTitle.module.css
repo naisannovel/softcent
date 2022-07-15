@@ -1,0 +1,19 @@
+.title__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.title__container h3{
+    font-family: 'Overlock';
+    font-weight: 700;
+    font-size: 3.6rem;
+    line-height: 4.6rem;
+    color: #040415;
+}
+
+.title__container img{
+    max-width: 200px;
+    height: 100%;
+}

@@ -1,0 +1,95 @@
+.pricing__container{
+    padding: 8rem 0;
+}
+
+.pricing__text__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 3rem;
+}
+
+.pricing__text__container p{
+    width: 50%;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+    text-align: center;
+}
+
+.pricing__text__container div{
+    display: flex;
+    column-gap: 3rem;
+}
+
+/* card container */
+
+.pricing__card_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: auto;
+    margin-top: 8rem;
+}
+
+/* card */
+
+.pricing__card{
+    width: 30%;
+    background-color: rgba(48, 136, 255, 0.05);
+    padding: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 4rem;
+    border-radius: 1.2rem;
+}
+
+.card__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card__header h4{
+    font-family: 'Overlock';
+    font-weight: 700;
+    font-size: 2.8rem;
+    line-height: 3.4rem;
+}
+
+.card__header p{
+    font-family: 'Overlock';
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.4rem;
+}
+
+.card__offer_items{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    row-gap: 2.5rem;
+}
+
+.card__offer_items p{
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+}
+
+.pricing__card button{
+    width: 80%;
+    padding: 1.2rem 0;
+    background: #F6A00E;
+    border-radius: 1.2rem;
+    font-family: 'Overlock';
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    margin: auto;
+}

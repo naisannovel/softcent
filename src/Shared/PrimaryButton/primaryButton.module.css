@@ -1,0 +1,15 @@
+.Primary__button{
+    background: var(--primary-color);
+    box-shadow: 16px 16px 28px rgba(48, 136, 255, 0.1);
+    border-radius: .8rem;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 1.4rem 1.9rem;
+    border: none;
+    font-family: 'Nunito';
+    font-style: normal;
+    min-width: 18rem;
+}

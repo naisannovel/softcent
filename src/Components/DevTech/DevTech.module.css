@@ -1,0 +1,22 @@
+.devTech__title_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.devTech__title_container h5{
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    text-align: center;
+    border-bottom: .4rem solid rgba(45, 91, 255, 0.1);
+    padding: 0 4rem;
+    cursor: pointer;
+}
+
+.tech__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 8rem;
+}
